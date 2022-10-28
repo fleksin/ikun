@@ -1,0 +1,18 @@
+{
+  "name": "ikun-loader",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./src/ikun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "release-it": "^15.5.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
