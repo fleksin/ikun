@@ -10,9 +10,7 @@
 npm i ikun-loader
 
 ```
-https://ibb.co/HhKbcyH
-https://ibb.co/QbV7hhr
-https://ibb.co/cw3hPzY
+
 ## Usage
 ```javascript
 import { ikunDance, ikunBasketball } from 'ikun-loader';

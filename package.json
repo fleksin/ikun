@@ -13,10 +13,7 @@
   "files": [
     "lib",
     "cjs",
-    "README.md",
-    "demo.gif",
-    "basketball.gif",
-    "dance.gif"
+    "README.md"
   ],
   "exports": {
     ".": {
