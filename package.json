@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/ikun.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:cjs": "tsc lib/*.js --allowJs --outDir cjs"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,13 @@
   },
   "files": [
     "lib",
+    "cjs",
     "README.md"
-  ]
+  ],
+  "exports": {
+    ".": {
+      "require": "./cjs/ikun.js",
+      "import": "./lib/ikun.js"
+    }
+  }
 }
