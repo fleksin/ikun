@@ -2,13 +2,11 @@
   "name": "ikun-loader",
   "version": "1.0.4",
   "description": "",
-  "main": "./src/ikun.js",
   "scripts": {
-    "build:cjs": "tsc lib/*.js --allowJs --outDir cjs"
+    "build:cjs": "tsc lib/*.js --allowJs --outDir cjs -m commonjs"
   },
   "author": "",
   "license": "ISC",
-  "type": "module",
   "devDependencies": {
     "release-it": "^15.5.0"
   },
