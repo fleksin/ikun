@@ -6,13 +6,13 @@
 ![demo](demo.gif)
 
 ## Install
-```
+```shell
 npm i ikun-loader
 
 ```
 
 ## Usage
-```
+```javascript
 import { ikunDance, ikunBasketball } from 'ikun-loader';
 
 const ikun = ikunDance('loading');
@@ -21,6 +21,12 @@ ikun.succeed('finished');
 ikun.failed('failed');
 
 ```
+
+## Animations
+### 包含两个动画
+![basketball](basketball.gif)
+![dance](dance.gif)
+
 
 
 

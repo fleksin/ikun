@@ -11,11 +11,11 @@ function sleep(m) {
 }
 
 (async () => {
-  const inst = ikunBasketball("loading first one");
-  await sleep(4000);
-  inst.succeed("!!succeed !!!!");
-  await sleep(2000);
-  const inst2 = ikunDance("loading second one");
-  await sleep(4000);
-  inst2.failed("!!failed !!!!");
+  const inst = ikunDance("loading first one");
+  // await sleep(4000);
+  // inst.succeed("!!succeed !!!!");
+  // await sleep(2000);
+  // const inst2 = ikunDance("loading second one");
+  // await sleep(4000);
+  // inst2.failed("!!failed !!!!");
 })();
