@@ -15,7 +15,7 @@ function sleep(m) {
   await sleep(4000);
   inst.succeed("!!succeed !!!!");
   await sleep(2000);
-  const inst2 = ikunDance("loading second one");
+  const inst2 = ikunBasketball("loading second one");
   await sleep(4000);
   inst2.failed("!!failed !!!!");
 })();
