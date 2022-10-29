@@ -3,14 +3,16 @@
 
 
 ## Demo Preview
-![demo](demo.gif)
+![demo](https://i.ibb.co/XDLx9mY/demo.gif)
 
 ## Install
 ```shell
 npm i ikun-loader
 
 ```
-
+https://ibb.co/HhKbcyH
+https://ibb.co/QbV7hhr
+https://ibb.co/cw3hPzY
 ## Usage
 ```javascript
 import { ikunDance, ikunBasketball } from 'ikun-loader';
@@ -24,8 +26,10 @@ ikun.failed('failed');
 
 ## Animations
 ### 包含两个动画
-![basketball](basketball.gif)
-![dance](dance.gif)
+#### ikunBasketball
+![basketball](https://i.ibb.co/Dr1vBFR/basketball.gif)
+#### ikunDance
+![dance](https://i.ibb.co/2nr0RRg/dance.gif)
 
 
 
