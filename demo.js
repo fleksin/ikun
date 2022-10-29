@@ -1,3 +1,21 @@
 const { ikunBasketball, ikunDance } = require("./cjs/ikun.js");
 
-const stop2 = ikunDance('ikun');
+// var basketball = require("./cjs/basketball.js").default;
+
+function sleep(m) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, m);
+  });
+}
+
+(async () => {
+  const inst = ikunBasketball("loading first one");
+  await sleep(4000);
+  inst.succeed("!!succeed !!!!");
+  await sleep(2000);
+  const inst2 = ikunDance("loading second one");
+  await sleep(4000);
+  inst2.failed("!!failed !!!!");
+})();
