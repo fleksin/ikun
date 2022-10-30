@@ -3,7 +3,7 @@
 
 
 ## Demo Preview
-![demo](https://i.ibb.co/m98ccgx/demo.gif)
+![demo](https://i.ibb.co/BwNNhTy/demo.gif)
 
 ## Install
 ```shell
