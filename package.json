@@ -2,6 +2,7 @@
   "name": "ikun-loader",
   "version": "1.1.4",
   "description": "",
+  "main": "./lib/ikun.js",
   "scripts": {
     "build:cjs": "tsc lib/*.js --allowJs --outDir cjs -m commonjs"
   },
