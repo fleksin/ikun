@@ -21,5 +21,8 @@
       "require": "./cjs/ikun.js",
       "import": "./lib/ikun.js"
     }
+  },
+  "hooks": {
+    "after:bump": "npx auto-changelog -p"
   }
 }
